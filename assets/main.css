@@ -1,0 +1,53 @@
+body {
+  display: grid;
+  grid-template-rows: 0.5fr 5fr 0.2fr;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  font-family: system-ui;
+  background: #fff;
+  color: #000;
+  text-align: center;
+}
+
+header {
+  background-color: #ccc;
+}
+
+main {
+  /*   background-color: #ddd; */
+}
+
+ul {
+  padding-top: 10px;
+  margin: auto;
+  text-align: left;
+}
+
+li {
+  line-height: 6vh;
+}
+
+img {
+  display: block;
+  max-width: 90%;
+}
+
+footer {
+  background-color: #bbb;
+  padding-top: 7px;
+}
+
+#img-div {
+  border-bottom: 1px solid gray;
+}
+
+#image {
+  margin: auto;
+}
+
+#img-caption {
+  font-size: 14px;
+  width: 30%;
+  margin: auto;
+  padding-bottom: 10px;
+}
